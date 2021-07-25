@@ -26,9 +26,10 @@
   },
   "homepage": "https://github.com/gpizzorno/atom-language-chunkgrammar#readme",
   "dependencies": {
-    "tree-sitter-chunk-grammar": "github:gpizzorno/tree-sitter-chunk-grammar"
+    "tree-sitter-chunk-grammar": "^0.1.3"
   },
   "devDependencies": {
-    "coffeelint": "^2.1.0"
+    "coffeelint": "^2.1.0",
+    "electron-rebuild": "^2.3.5"
   }
 }
