@@ -1,0 +1,34 @@
+{
+  "name": "language-chunkgrammar",
+  "main": "./lib/language-chunkgrammar",
+  "version": "0.1.0",
+  "description": "NLTK chunk grammar support for Atom",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gpizzorno/atom-language-chunkgrammar.git"
+  },
+  "keywords": [
+    "tree-sitter",
+    "atom",
+    "chunk",
+    "nltk"
+  ],
+  "activationCommands": {
+    "atom-workspace": "language-chunkgrammar:toggle"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "author": "Gabe Pizzorno <pizzorno@fas.harvard.edu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gpizzorno/atom-language-chunkgrammar/issues"
+  },
+  "homepage": "https://github.com/gpizzorno/atom-language-chunkgrammar#readme",
+  "dependencies": {
+    "tree-sitter-chunk-grammar": "github:gpizzorno/tree-sitter-chunk-grammar"
+  },
+  "devDependencies": {
+    "coffeelint": "^2.1.0"
+  }
+}
